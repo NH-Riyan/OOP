@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 class teacher
@@ -40,3 +41,4 @@ int main()
 
     return 0;
 }
+
