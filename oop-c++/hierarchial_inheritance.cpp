@@ -52,8 +52,6 @@ class Teacher:public Person
 };
 
 
-
-
 int main()
 {
     Student s1("roy",24,36);
