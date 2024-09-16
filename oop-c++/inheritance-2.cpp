@@ -20,7 +20,7 @@ class Student:public Person
    public:
      int roll;
     
-    Student(string name,int age,int roll):Person(name,age) // inherited the properties of Person class
+    Student(string name,int age,int roll):Person(name,age)   // inherited the properties of Person class
     {
         this->roll=roll;
     }
