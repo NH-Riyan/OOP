@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -37,5 +36,4 @@ int main()
 
     GenZ z;
     z.timeline();
-
 }

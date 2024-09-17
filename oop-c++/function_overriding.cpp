@@ -23,4 +23,5 @@ int main()
 {
     Child c1;
     c1.show();   // child's function overrides the parent's function
+
 }
