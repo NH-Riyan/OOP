@@ -30,10 +30,12 @@ int main()
             u-=200;
         }
         charge[i]+=u*0.9;
-        charge[i]+=50;
 
-        if(units[i]>300)
-            charge[i]+=0.15*units[i];
+        if(charge[i]<50)
+            charge[i]=50;
+
+        else if (units[i]>300)
+            charge[i]+=0.15*charge[i];
     }
 
     for(int i=0; i<n; i++)
